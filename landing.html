@@ -1,0 +1,736 @@
+<!doctype html>
+<html lang="en" data-layout="horizontal" data-topbar="dark" data-sidebar-size="lg" data-sidebar="light" data-sidebar-image="none" data-preloader="disable">
+
+    <head>
+
+        <meta charset="utf-8" />
+        <title>Family Practice Model</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta content="Premium Multipurpose Admin & Dashboard Template" name="description" />
+        <meta content="Themesbrand" name="author" />
+        <!-- App favicon -->
+        <link rel="shortcut icon" href="assets/images/favicon.ico">
+
+        <!--Swiper slider css-->
+        <link href="assets/libs/swiper/swiper-bundle.min.css" rel="stylesheet" type="text/css" />
+
+        <!-- Layout config Js -->
+        <script src="assets/js/layout.js"></script>
+        <!-- Bootstrap Css -->
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <!-- Icons Css -->
+        <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+        <!-- App Css-->
+        <link href="assets/css/app.min.css" rel="stylesheet" type="text/css" />
+        <!-- custom Css-->
+        <link href="assets/css/custom.min.css" rel="stylesheet" type="text/css" />
+
+        <style>
+
+            .job-hero-section {
+                position: relative;
+                color: white; /* Ensure text is readable */
+            }
+
+            .job-hero-section .overlay {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background: rgba(0, 0, 0, 0.5); /* Adjust the color and opacity of the overlay */
+                z-index: 1; /* Ensure overlay is above the background image */
+            }
+
+            .job-hero-section .container {
+                position: relative;
+                z-index: 2; /* Ensure content is above the overlay */
+            }
+
+            .job-hero-section  #text {
+                z-index: 100;
+            }
+
+
+        </style>
+
+
+    </head>
+    
+
+    <body data-bs-spy="scroll" data-bs-target="#navbar-example">
+
+        <!-- Begin page -->
+        <div class="layout-wrapper landing">
+            <nav class="navbar navbar-expand-lg navbar-landing fixed-top job-navbar bg-white" id="navbar">
+                <div class="container-fluid custom-container">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="assets/images/landing/logo.png" class="card-logo card-logo-dark" alt="logo dark" height="40">
+                        <img src="assets/images/hosp/main-logo.png" class="card-logo card-logo-light" alt="logo light" height="40">
+                    </a>
+                    <button class="navbar-toggler py-0 fs-20 text-body" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="mdi mdi-menu"></i>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mx-auto mt-2 mt-lg-0" id="navbar-example">
+                            <li class="nav-item">
+                                <a class="nav-link fw-semibold fs-15 active " href="#hero">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fw-semibold fs-15 text-black" href="#why">Why FPM</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fw-semibold fs-15 text-black" href="#how">How IT Works</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fw-semibold fs-15  text-black " href="#contact">Contact</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fw-semibold fs-15  text-black " href="#news">News</a>
+                            </li>
+                        </ul>
+
+                        <div class="">
+                            <a href="hosp-signin.html" class="btn btn-soft-success me-3 text-success "><i class="ri-user-3-line align-bottom me-1 text-success"></i>Register</a>
+                        </div>
+                           <div class="">
+                            <a href="hosp-signin.html" class="btn btn-success"><i class="ri-user-3-line align-bottom me-1"></i>Login</a>
+                        </div>
+                    </div>
+
+                </div>
+            </nav>
+            <!-- end navbar -->
+
+            <!-- start hero section -->
+            <section class="section job-hero-section bg-light" id="hero" 
+            style="background-image: url(./assets/images/landing/hero-img.jpg);
+                   background-size: cover;
+                   height: 80vh; 
+                   position: relative; /* Add this for positioning the overlay */
+                   color: white;"> <!-- Add this to ensure text is readable on overlay -->
+                <div class="overlay"></div> <!-- Add this for the overlay -->
+                <div class="container">
+            <div class="row justify-content-center mt-5">
+                <div class="col-lg-8">
+                    <div class="text-center mb-4" id="text">
+                        <h2 class="mb-3 fw-bold lh-base text-white fs-1 mb-3">Your Dedicated <span class="text-success">Family Doctor </span> Awaits</h2>
+                        <p class="text-white">At KNUST, we're committed to providing you and your family with personalized healthcare.
+                            With the Family Practice Model, you’ll have a dedicated family doctor who understands your unique needs and medical history. 
+                            Enjoy consistent, tailored care and streamlined appointments that make managing your health simpler and more effective.</p>
+                    </div>
+                </div><!-- end col -->
+                <div class="d-flex justify-content-center">
+                    <a href="auth-signin-basic.html" class="btn btn-success me-3 ">
+                        <i class="ri-user-3-line align-bottom me-1 "></i>Register Now
+                    </a>
+                </div>
+                
+            </div><!-- end row -->
+    
+        </div><!-- end container -->
+            </section>
+    
+            <!-- end hero section -->
+
+
+            <!-- start why section -->
+            <section class="section" id="why">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="text-center mb-5">
+                                <h1 class="mb-3 fw-semibold lh-base">Why the <span class="text-success"> Family Practice Model?</span> </h1>
+                                <p class="text-muted">Discover the advantages of having a dedicated family doctor for you and your loved ones.</p>
+                            </div>
+                        </div>
+                        <!-- end col -->
+                    </div>
+                    <!--end row-->
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6">
+                            <div class="card shadow-lg">
+                                <div class="card-body p-4">
+                                    <h1 class="fw-bold display-5 ff-secondary mb-4 text-success position-relative">
+                                        <div class="job-icon-effect"></div>
+                                        <span>1</span>
+                                    </h1>
+                                    <h6 class="fs-17 mb-2">Personalized Care:</h6>
+                                    <p class="text-muted mb-0 fs-15">
+                                        Receive care tailored to your unique medical history and needs.
+                                        Your dedicated family doctor will have a comprehensive understanding of your health, 
+                                        allowing for more personalized and effective treatment.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 col-md-6">
+                            <div class="card shadow-lg">
+                                <div class="card-body p-4">
+                                    <h1 class="fw-bold display-5 ff-secondary mb-4 text-success position-relative">
+                                        <div class="job-icon-effect"></div>
+                                        <span>2</span>
+                                    </h1>
+                                    <h6 class="fs-17 mb-2">Consistent Healthcare Provider:</h6>
+                                    <p class="text-muted mb-0 fs-15">
+                                        Enjoy continuity with a familiar doctor for all your appointments.
+                                       Build a lasting relationship with your family doctor, reducing the need to repeatedly explain your medical history and ensuring consistent care.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 col-md-6">
+                            <div class="card shadow-lg">
+                                <div class="card-body p-4">
+                                    <h1 class="fw-bold display-5 ff-secondary mb-4 text-success position-relative">
+                                        <div class="job-icon-effect"></div>
+                                        <span>3</span>
+                                    </h1>
+                                    <h6 class="fs-17 mb-2">Streamlined Appointments:</h6>
+                                    <p class="text-muted mb-0 fs-15">
+                                        Simplify your healthcare experience with easier appointment scheduling.
+                                        Access your family doctor’s schedule and book appointments with ease, minimizing wait times and improving convenience.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 col-md-6">
+                            <div class="card shadow-lg">
+                                <div class="card-body p-4">
+                                    <h1 class="fw-bold display-5 ff-secondary mb-4 text-success position-relative">
+                                        <div class="job-icon-effect"></div>
+                                        <span>4</span>
+                                    </h1>
+                                    <h6 class="fs-17 mb-2">Enhanced Satisfaction:</h6>
+                                    <p class="text-muted mb-0 fs-15">
+                                        Benefit from improved overall satisfaction with your healthcare services.
+                                        The Family Practice Model aims to enhance your overall experience by providing a more personalized and attentive approach to healthcare.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                       
+                    </div>
+                </div>
+                <!--end container-->
+            </section>
+              <!-- end why section -->
+
+            <!-- start how -->
+            <section class="section" id="how">
+                <div class="container">
+                    <div class="row align-items-center justify-content-lg-between justify-content-center gy-4">
+                      
+                        <div class="col-lg-6">
+                            <div class="text-muted">
+                                <h2 class="mb-3 lh-base">How the  <span class="text-success">Family Practice Model</span> Works </h2>
+                                <p class="ff-secondary fs-16 mb-2">Follow these simple steps to get started with personalized and continuous healthcare.</p>
+                    
+
+                                <div class="vstack gap-2 mb-4 pb-1">
+                                    <div class="d-flex align-items-center card text-center ">
+                                        
+                                        <div class="flex-grow-1 card-body">
+                                            <p class="mb-0"><span class="text-success">1 Sign Up:</span> register your interest by filling out the online form.
+                                                Provide basic details about yourself and your family to get started.</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="d-flex align-items-center card text-center ">
+                                      
+                                        <div class="flex-grow-1  card-body">
+                                            <p class="mb-0"><span class="text-success">2 Doctor Assignment:</span> register your interest by filling out the online form.
+                                                Choose or be assigned a dedicated family doctor.
+                                        Our system will match you with a doctor based on your needs or preferences.</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="d-flex align-items-center  card text-center">
+                                        
+                                        <div class="flex-grow-1  card-body">
+                                            <p class="mb-0"><span class="text-success">3 Schedule Appointments:</span> register your interest by filling out the online form.
+                                                View your doctor’s availability and book appointments.
+                                                Manage your healthcare easily with a user-friendly scheduling system.</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="d-flex align-items-center  card text-center">
+                                      
+                                        <div class="flex-grow-1 card-body">
+                                            <p class="mb-0"><span class="text-success fw-bold">4 Ongoing Care:</span>Receive continuous and personalized care from your family doctor.
+                                                Your doctor will be familiar with your medical history and provide tailored treatment.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="col-lg-5 col-sm-7">
+                            <div class="">
+                              
+                                <img src="assets/images/landing/works.jpg" alt="" class="img-fluid mx-auto rounded-3 mb-2" />
+                                <img src="assets/images/landing/work.jpg" alt="" class="img-fluid mx-auto rounded-3" />
+                            </div>
+                        </div>
+                        <!-- end col -->
+                    </div>
+                    <!-- end row -->
+                </div>
+                <!-- end container -->
+            </section>
+            <!-- end how -->
+
+            <section class="py-5 bg-success position-relative">
+                <div class="bg-overlay bg-overlay-pattern opacity-50"></div>
+                <div class="container">
+                    <div class="row align-items-center gy-4">
+                        <div class="col-sm">
+                            <div>
+                                <h4 class="text-white mb-0 fw-bold">Join the Family Practice Model</h4>
+                                <p class="text-white mt-3">Experience personalized and continuous healthcare with a dedicated family doctor. <br>
+                                    Click on the button below to register.
+                                </p>
+                            </div>
+                        </div>
+                        <!-- end col -->
+                        <div class="col-sm-auto">
+                            <div>
+                                <a href="apps-nft-create.html" class="btn bg-gradient btn-dark">Register Now</a>
+                              
+                            </div>
+                        </div>
+                        <!-- end col -->
+                    </div>
+                    <!-- end row -->
+                </div>
+                <!-- end container -->
+            </section>
+
+            <!-- start FAQ -->
+            <section class="section">
+                <div class="container">
+                    <div class="row g-lg-5 g-4">
+
+                        <div class="col-lg-6">
+                            <img src="assets/images/landing/faq.svg" alt="FAQ" style="height: 300px; margin-bottom: 50px;   transform: scaleX(-1);" class="svg-image" >
+                            <div class="text-center mb-5">
+                                <h3 class="mb-3 fw-bold">Frequently Asked Questions</h3>
+                                <p class="text-muted mb-4">If you can not find answer to your question in our FAQ, you can
+                                    always contact us or email us. We will answer you shortly!</p>
+    
+                                <div class="">
+                                    <button type="button" class="btn btn-success btn-label rounded-pill"><i class="ri-mail-line label-icon align-middle rounded-pill fs-16 me-2"></i> Email Us</button>
+                                    <button type="button" class="btn btn-info btn-label rounded-pill"><i class="ri-phone-line label-icon align-middle rounded-pill fs-16 me-2"></i> Contact Us</button>
+                                </div>
+                            </div>
+                            <!--end accordion-->
+                        </div>
+                        <!-- end col -->
+                    
+                        <div class="col-lg-6">
+                            <div class="d-flex align-items-center mb-2" style="margin-top: 5px;">
+                                <div class="flex-shrink-0 me-1">
+                                    <i class="ri-question-line fs-24 align-middle text-success me-1"></i>
+                                </div>
+                                <div class="flex-grow-1">
+                                    <h5 class="mb-0 fw-bold">General Questions</h5>
+                                </div>
+                            </div>
+                            <div class="accordion custom-accordionwithicon custom-accordion-border accordion-border-box" id="genques-accordion">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="genques-headingOne">
+                                        <button class="accordion-button fw-semibold fs-14" type="button" data-bs-toggle="collapse" data-bs-target="#genques-collapseOne" aria-expanded="true" aria-controls="genques-collapseOne">
+                                            Who is eligible to join the Family Practice Model?
+                                        </button>
+                                    </h2>
+                                    <div id="genques-collapseOne" class="accordion-collapse collapse show" aria-labelledby="genques-headingOne" data-bs-parent="#genques-accordion">
+                                        <div class="accordion-body">
+                                            The Family Practice Model is available exclusively to KNUST university staff and their dependents. If you are a staff member, you can enroll and benefit from this model.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="genques-headingTwo">
+                                        <button class="accordion-button fw-semibold fs-14 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#genques-collapseTwo" aria-expanded="false" aria-controls="genques-collapseTwo">
+                                            How are family doctors assigned?
+                                        </button>
+                                    </h2>
+                                    <div id="genques-collapseTwo" class="accordion-collapse collapse" aria-labelledby="genques-headingTwo" data-bs-parent="#genques-accordion">
+                                        <div class="accordion-body">
+                                            Staff members can either choose from a list of available doctors or be assigned based on availability and preferences. Each staff member is limited to a maximum of 3 doctors.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="genques-headingThree">
+                                        <button class="accordion-button fw-semibold fs-14 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#genques-collapseThree" aria-expanded="false" aria-controls="genques-collapseThree">
+                                            Can I change my assigned family doctor?
+                                        </button>
+                                    </h2>
+                                    <div id="genques-collapseThree" class="accordion-collapse collapse" aria-labelledby="genques-headingThree" data-bs-parent="#genques-accordion">
+                                        <div class="accordion-body">
+                                            Yes, you can request a change in your assigned family doctor if needed. Please contact the Family Practice Model support team to facilitate the change.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="genques-headingFour">
+                                        <button class="accordion-button fw-semibold fs-14 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#genques-collapseFour" aria-expanded="false" aria-controls="genques-collapseFour">
+                                            Will NSS at KNUST guarantee me a full-time job after completing one year of service?
+                                        </button>
+                                    </h2>
+                                    <div id="genques-collapseFour" class="accordion-collapse collapse" aria-labelledby="genques-headingFour" data-bs-parent="#genques-accordion">
+                                        <div class="accordion-body">
+                                            For urgent medical needs, any of the three assigned doctors can be contacted. In emergencies, please visit the nearest hospital or emergency room.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="genques-headingFour">
+                                        <button class="accordion-button fw-semibold fs-14 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#genques-collapseFour" aria-expanded="false" aria-controls="genques-collapseFour">
+                                            
+                                      How do I book and manage appointments?
+                                        </button>
+                                    </h2>
+                                    <div id="genques-collapseFour" class="accordion-collapse collapse" aria-labelledby="genques-headingFour" data-bs-parent="#genques-accordion">
+                                        <div class="accordion-body">
+                                            You can view your doctor’s availability and book appointments through our online scheduling system. Once registered, you will receive access to this system for managing your healthcare appointments.
+                                        </div>
+                                    </div>
+                                </div>
+                               
+                            </div>
+                            <!--end accordion-->
+    
+                        </div>
+    
+                          <!-- end col -->
+                        
+                      
+                    </div>
+                </div>
+                <!-- end container -->
+            </section>
+            <!-- end FAQ -->
+
+
+            <!-- start contact -->
+            <section class="section" id="contact">
+                <div class="container">
+                    <div class="row justify-content-center" style="margin-top: -25px;">
+                        <div class="col-lg-8">
+                            <div class="text-center mb-5">
+                                <h3 class="mb-3 fw-bold">Get In Touch</h3>
+                                <p class="text-muted mb-4">We thrive when coming up with innovative ideas but also
+                                    understand that a smart concept should be supported with faucibus sapien odio measurable
+                                    results.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end row -->
+    
+                    <div class="row gy-4">
+                        <div class="col-lg-4">
+                            <div>
+                                <div class="mt-4">
+                                    <h5 class="fs-13 text-muted text-uppercase">Office Address :</h5>
+                                    <div class="fw-semibold">UITS, KNUST <br>Kumasi - Ghana</div>
+                                </div>
+                                <div class="mt-4">
+                                    <h5 class="fs-13 text-muted text-uppercase">Contact:</h5>
+                                    <div class="fw-semibold">0501377758 <br> itsupport@knust.edu.gh</div>
+                                </div>
+                                <div class="mt-4">
+                                    <h5 class="fs-13 text-muted text-uppercase">Working Hours:</h5>
+                                    <div class="fw-semibold">8:00am to 5:00pm</div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end col -->
+                        <div class="col-lg-8">
+                            <div>
+                                <form>
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <div class="mb-4">
+                                                <label for="name" class="form-label fs-13">Name</label>
+                                                <input name="name" id="name" type="text" class="form-control bg-light border-light" placeholder="Your name*">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="mb-4">
+                                                <label for="email" class="form-label fs-13">Email</label>
+                                                <input name="email" id="email" type="email" class="form-control bg-light border-light" placeholder="Your email*">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-12">
+                                            <div class="mb-4">
+                                                <label for="subject" class="form-label fs-13">Subject</label>
+                                                <input type="text" class="form-control bg-light border-light" id="subject" name="subject" placeholder="Your Subject..">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-12">
+                                            <div class="mb-3">
+                                                <label for="comments" class="form-label fs-13">Message</label>
+                                                <textarea name="comments" id="comments" rows="3" class="form-control bg-light border-light" placeholder="Your message..."></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-12 text-end">
+                                            <input type="submit" id="submit" name="send" class="submitBnt btn btn-soft-success" value="Send Message">
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end row -->
+                </div>
+            </section>
+            <!-- end contact -->
+
+               <!-- start news -->
+               <section class="section" id="news">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="text-center mb-5">
+                                <h1 class="mb-3 fw-semibold text-capitalize lh-base">Our Latest <span class="text-success">News</span></h1>
+                                <p class="text-muted mb-4"> Discover the latest updates and achievements from KNUST University Hospital</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end row -->
+    
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6">
+                            <div class="card">
+                                <div class="card-body">
+                                    <img src="assets/images/landing/n-1.jpg" alt="" class="img-fluid rounded" />
+                                </div>
+                                <div class="card-body">
+                                    <ul class="list-inline fs-14 text-muted">
+                                        <li class="list-inline-item">
+                                            <i class="ri-calendar-line align-bottom me-1"></i>Sun 16th June 2024
+                                        </li>
+                                      
+                                    </ul>
+                                    <a href="javascript:void(0);">
+                                        <h5>Northern Ireland's Ulster University Team Strengthens Partnership with KNUST</h5>
+                                    </a>
+                                    <p class="text-muted fs-14">
+                                        A delegation from Ulster University, including Dr. Aaron Courtenay and Dr. Ahmed Abuelhana, visited Professor Daniel Duah, Dean of the International Programmes Office at KNUST, on May 21, 2024.
+                                    </p>
+                                    
+                                    <div>
+                                        <a href="https://uhs.knust.edu.gh/news/news-items/northern-irelands-ulster-university-team-strengthens-partnership-knust" target="_blank" class="link-success">Learn More <i class="ri-arrow-right-line align-bottom ms-1"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="card">
+                                <div class="card-body">
+                                    <img src="assets/images/landing/n-2.jpg" alt="" class="img-fluid rounded" />
+                                </div>
+                                <div class="card-body">
+                                    <ul class="list-inline fs-14 text-muted">
+                                        <li class="list-inline-item">
+                                            <i class="ri-calendar-line align-bottom me-1"></i> Tue 14th May 2024
+                                        </li>
+                                    </ul>
+                                    <a href="javascript:void(0);">
+                                        <h5>Enhancing Quality of Life: Integrating HIV and Geriatric Care</h5>
+                                    </a>
+                                    <p class="text-muted fs-14">
+                                        There are an estimated 7 million people with HIV (PWH) aged over 50 years worldwide; 5 million of them live in sub-Saharan Africa, the epicentre of the HIV epidemic. Out of the approximately 312,000 PWH in Ghana in 2019, almost 1 in 6 are aged over 50 years. 
+                                    </p>
+                        
+                                    <div>
+                                        <a href="https://uhs.knust.edu.gh/news/news-items/enhancing-quality-life-integrating-hiv-and-geriatric-care" class="link-success">Learn More <i class="ri-arrow-right-line align-bottom ms-1"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="card">
+                                <div class="card-body">
+                                    <img src="assets/images/landing/n-3.jpg" alt="" class="img-fluid rounded" />
+                                </div>
+                                <div class="card-body">
+                                    <ul class="list-inline fs-14 text-muted">
+                                        <li class="list-inline-item">
+                                            <i class="ri-calendar-line align-bottom me-1"></i> Tue 14th May 2024
+                                        </li>
+                                       
+                                    </ul>
+                                    <a href="javascript:void(0);">
+                                        <h5>Empowering Women: BeAware’s Early Detection Campaign</h5>
+                                    </a>
+                                    <p class="text-muted fs-14">
+                                        Diseases of the breast are fairly common among women, with breast cancer being the most consequential. Breast cancer is the leading cancer among Ghanaian women, and more than 50% are detected late. Early detection is essential for improving breast cancer. outcomes and is the basis of our BeAware Breast Health Awareness.
+                                    </p>
+                        
+                                    <div>
+                                        <a href="https://www.knust.edu.gh/news/news-items/knust-holds-3rd-national-hatchery-capacity-building-workshop" target="_blank" class="link-success">Learn More <i class="ri-arrow-right-line align-bottom ms-1"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                    </div>
+                </div>
+            </section>
+            <!-- end news -->
+
+          
+
+            <!-- Start footer -->
+            <footer class="custom-footer bg-dark py-5 position-relative">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 mt-4">
+                            <div>
+                                <div>
+                                    <img src="assets/images/hosp/main-logo.png" alt="logo light" height="50" />
+                                </div>
+                                <div class="mt-4 fs-15">
+                                    <p>The Family Practice Model (FPM) at KNUST University Hospital provides personalized healthcare for staff and their families. </p>
+                                    
+                                    <ul class="list-inline mb-0 footer-social-link">
+                                        <li class="list-inline-item">
+                                            <a href="javascript: void(0);" class="avatar-xs d-block">
+                                                <div class="avatar-title rounded-circle">
+                                                    <i class="ri-facebook-fill"></i>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a href="javascript: void(0);" class="avatar-xs d-block">
+                                                <div class="avatar-title rounded-circle">
+                                                    <i class="ri-twitter-fill"></i>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a href="javascript: void(0);" class="avatar-xs d-block">
+                                                <div class="avatar-title rounded-circle">
+                                                    <i class="ri-instagram-fill"></i>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a href="javascript: void(0);" class="avatar-xs d-block">
+                                                <div class="avatar-title rounded-circle">
+                                                    <i class="ri-youtube-fill"></i>
+                                                </div>
+                                            </a>
+                                        </li>
+                                      
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-7 ms-lg-auto">
+                            <div class="row">
+                                <div class="col-sm-4 mt-4">
+                                    <h5 class="text-white mb-0">Useful Links </h5>
+                                    <div class="text-muted mt-3">
+                                        <ul class="list-unstyled ff-secondary footer-list">
+                                            <li><a href="pages-profile.html">Home</a></li>
+                                            <li><a href="pages-gallery.html">How it Works</a></li>
+                                            <li><a href="pages-team.html">Benefits</a></li>
+                                            <li><a href="pages-team.html">News</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 mt-4">
+                                    <h5 class="text-white mb-0">FResources Links</h5>
+                                    <div class="text-muted mt-3">
+                                        <ul class="list-unstyled ff-secondary footer-list">
+                                            <li><a href="https://uhs.knust.edu.gh/administration">Administration</a></li>
+                                            <li><a href="https://uhs.knust.edu.gh/pharmacy">Pharmacy</a></li>
+                                            <li><a href="https://uhs.knust.edu.gh/radiology">Radiology</a></li>
+                                            <li><a href="https://uhs.knust.edu.gh/health-information-technology-hits">Information Technology</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 mt-4">
+                                    <h5 class="text-white mb-0">Support</h5>
+                                    <div class="text-muted mt-3">
+                                        <ul class="list-unstyled ff-secondary footer-list">
+                                            <li><a href="pages-faqs.html">FAQ</a></li>
+                                            <li><a href="pages-faqs.html">Contact</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="row text-center text-sm-start align-items-center mt-5">
+                        <div class="col-sm-6">
+                            <div>
+                                <p class="copy-rights mb-0">
+                                    <script> document.write(new Date().getFullYear()) </script> © A.A.Mintah. All rights reserved.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="text-sm-end mt-3 mt-sm-0">
+                                <ul class="list-inline mb-0 footer-list gap-4 fs-15">
+                                    <li class="list-inline-item">
+                                        <a href="pages-privacy-policy.html">Privacy Policy</a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a href="pages-term-conditions.html">Terms & Conditions</a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a href="pages-privacy-policy.html">Security</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!-- end footer -->
+
+            <!--start back-to-top-->
+            <button onclick="topFunction()" class="btn btn-info btn-icon landing-back-top" id="back-to-top">
+                <i class="ri-arrow-up-line"></i>
+            </button>
+            <!--end back-to-top-->
+
+        </div>
+        <!-- end layout wrapper -->
+
+
+        <!-- JAVASCRIPT -->
+        <script src="assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/libs/simplebar/simplebar.min.js"></script>
+        <script src="assets/libs/node-waves/waves.min.js"></script>
+        <script src="assets/libs/feather-icons/feather.min.js"></script>
+        <script src="assets/js/pages/plugins/lord-icon-2.1.0.js"></script>
+        <script src="assets/js/plugins.js"></script>
+
+        <!--Swiper slider js-->
+        <script src="assets/libs/swiper/swiper-bundle.min.js"></script>
+
+        <!--job landing init -->
+        <script src="assets/js/pages/job-lading.init.js"></script>
+    </body>
+
+</html>
