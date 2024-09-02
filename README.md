@@ -6,7 +6,7 @@ The Family Practice Model at KNUST offers you and your family personalized healt
 
 ## Demo
 
-![Family Practice Model Demo](../Hospital/assets/images/FPM%20cover.jpg) 
+![Family Practice Model Demo](assets/images/FPM%20cover.jpg)
 
 ## License
 
@@ -16,4 +16,4 @@ MIT.
 
 Akua Adomako Mintah - [marymintah32@gmail.com](mailto:marymintah32@gmail.com)
 
-Project Link: [https://github.com/your-username/family-practice-model](https://github.com/your-username/family-practice-model)
+Project Link: [Hospital Family Practice Model Link](https://hospital-fpm.netlify.app/landing.html)
